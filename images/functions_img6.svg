@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="147" height="156" viewBox="0 0 147 156">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_140" data-name="Rectangle 140" width="147" height="156" transform="translate(-0.155 -0.322)" fill="#a92c3d" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_29" data-name="Mask Group 29" transform="translate(0.155 0.322)" clip-path="url(#clip-path)">
+    <g id="packard-bell" transform="translate(2.818 -0.023)">
+      <path id="Path_269" data-name="Path 269" d="M129.316,117.818V70.639a41.032,41.032,0,0,0-27-38.587l-1.25-.437v-8.5a12.185,12.185,0,0,0-24.371,0v8.467l-1.25.437a41.032,41.032,0,0,0-27,38.587v47.179H34.4v24.371H67.42l.312,1.5a21.556,21.556,0,0,0,42.243,0l.312-1.5h33.025V117.786h-14ZM82.355,28.084V23.116a6.561,6.561,0,1,1,13.123,0v7.061l-2.093-.25c-1.5-.156-3-.25-4.468-.281h-.031a36.118,36.118,0,0,0-4.468.281l-2.093.25V28.084ZM54.142,97.2V70.639A35.207,35.207,0,0,1,88.917,35.3c19.184.062,34.806,15.935,34.806,35.337V99.071H54.142Zm0,18.747V104.7h69.581v13.123H54.142Zm49.8,28.745a15.942,15.942,0,0,1-30.057,0l-.875-2.5H104.82Zm33.806-21.246v13.123H40.082V123.442h97.67Z" transform="translate(-17.679 -5.431)" fill="#a92c3d"/>
+      <path id="Path_270" data-name="Path 270" d="M58.829,29.617,55.8,24.9A59.111,59.111,0,0,0,35.239,49.4l5.187,2.156A53.636,53.636,0,0,1,58.829,29.617Z" transform="translate(-17.898 -9.059)" fill="#a92c3d"/>
+      <path id="Path_271" data-name="Path 271" d="M42.655,8.252,39.624,3.5A77.662,77.662,0,0,0,11.817,36.622L17,38.778A72.5,72.5,0,0,1,42.655,8.252Z" transform="translate(-11.817 -3.503)" fill="#a92c3d"/>
+      <path id="Path_272" data-name="Path 272" d="M152.006,24.9l-3.031,4.718a53.749,53.749,0,0,1,18.4,21.9l5.187-2.156A58.987,58.987,0,0,0,152.006,24.9Z" transform="translate(-47.431 -9.059)" fill="#a92c3d"/>
+      <path id="Path_273" data-name="Path 273" d="M162.607,8.252a72.06,72.06,0,0,1,25.652,30.526l5.187-2.156A77.88,77.88,0,0,0,165.637,3.5Z" transform="translate(-50.97 -3.503)" fill="#a92c3d"/>
+    </g>
+  </g>
+</svg>
