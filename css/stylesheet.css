@@ -1,0 +1,76 @@
+/* Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+
+Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {}
+.test{
+    background-color: rgba(.1, .1, .1, .1);
+    border: 1px solid rgba(.1, .1, .1, .2);
+    color: white;
+}
+
+.custom-class {
+  display: none;
+}
+@media (min-width: 576px) {
+    .custom-class {
+        display: block;
+      }
+}
+.height100{
+    height: 100px;
+}
+.height200{
+    height: 200px;
+}
+.width30p{
+    width: 30%;
+}
+.width100{
+    width:100px;
+}
+.width200{
+    width: 200px;
+}
+.bgsz-auto{
+    background-image: url("../images/L+_dark_close_half.jpg");
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.bgsz-len{
+    background-image: url("../images/L+_dark_close_half.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+.bgsz-cov{
+    background-image: url("../images/L+_dark_close_half.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.navhero{
+    background-image: url("../images/L+_dark_close_half.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.bg-grey{
+    background-color: grey;
+}
+.bg-red{
+    background-color: rgb(126, 21, 52);
+}
+.bg-yellow{
+    background-color: yellow;
+}
+
+/*  */
