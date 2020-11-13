@@ -26,10 +26,113 @@ Small devices (landscape phones, 576px and up) */
 .width200{
     width: 200px;
 }
-
+/* fonts */
 .my_font{
     font-family: 'Noto Sans JP', sans-serif !important;
     font-weight: 900 !important;
+}
+h1.my_font_display{
+    font-family: 'Noto Sans JP', sans-serif !important;
+    font-weight: 900 !important;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0,0,0,.1);
+    letter-spacing: .25em;
+    line-height: 150%;
+    font-size: 10vw;
+}
+h2.my_font_display2{
+    font-family: 'Noto Sans JP', sans-serif !important;
+    font-weight: 700 !important;
+    color: var(--sub-color);
+    text-shadow: 1px 1px 1px rgba(0,0,0,.1);
+    letter-spacing: .15em;
+    line-height: 150%;
+    font-size: 5vw;
+}
+p.my_font_p{
+    font-family: 'Noto Sans JP', sans-serif !important;
+    font-weight: 300 !important;
+    color: var(--sub-color);
+    /* text-shadow: 1px 1px 1px rgba(0,0,0,.1); */
+    letter-spacing: initial;
+    line-height: 150%;
+    font-size: 4vw;
+}
+@media (min-width: 768px) {
+    h1.my_font_display{
+        font-size: 5vw;
+    }
+    h2.my_font_display2{
+        font-size: 3vw;
+    }
+    p.my_font_p{
+        font-size: 2vw;
+    }
+}
+/* universal */
+:root{
+    --hero_height: 100vh;
+    --footer_height: 60vh;
+    --intro_height: 200vh;
+    --main-color: #A92C3D;
+    --sub-color: #707070;
+}
+.test{
+    background-color:rgba(0,0,0,.1);
+    border: 1px solid rgba(0,0,0,.2);
+}
+.my_bg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.hero{
+    height:var(--hero_height);
+}
+/* Top */
+#top .my_bg.hero{
+    background-image: url("../images/home_banner.png");
+}
+#top .my_bg.intro{
+    background-image: url("../images/introduction_back.png");
+    /* height:2000px; */
+    /* height:var(--intro_height); */
+}
+#top .my_bg.product{
+    background-image: url("../images/product_back.png");
+    /* height: var(--hero_height); */
+}
+#top .customers{
+    height: var(--hero_height);
+    background-color: thistle;
+}
+#top .partners{
+    height: var(--hero_height);
+    background-color: whitesmoke;
+}
+#top .my_bg.footer{
+    background-image:url("../images/footer_back.png");
+    height: var(--footer_height);
+}
+#top .intro_heading{
+}
+#top .intro_story{
+}
+#top .intro_ume{
+    background-image: url("../images/ume_back.png");
+    background-blend-mode: normal;
+    height: 50vh;
+}
+#ume_logo{
+    width:50vw;
+}
+@media (min-width: 768px){
+    #ume_logo{
+        width:25vw;
+    }  
+}
+
+#top .intro_story_contd{
 }
 
 /*  */
