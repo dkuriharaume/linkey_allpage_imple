@@ -31,7 +31,7 @@ Small devices (landscape phones, 576px and up) */
     font-family: 'Noto Sans JP', sans-serif !important;
     font-weight: 900 !important;
 }
-h1.my_font_display{
+.my_font_display{
     font-family: 'Noto Sans JP', sans-serif !important;
     font-weight: 900 !important;
     color: white;
@@ -40,7 +40,7 @@ h1.my_font_display{
     line-height: 150%;
     font-size: 10vw;
 }
-h2.my_font_display2{
+.my_font_h1{
     font-family: 'Noto Sans JP', sans-serif !important;
     font-weight: 700 !important;
     color: var(--sub-color);
@@ -49,7 +49,7 @@ h2.my_font_display2{
     line-height: 150%;
     font-size: 5vw;
 }
-p.my_font_p{
+.my_font_p{
     font-family: 'Noto Sans JP', sans-serif !important;
     font-weight: 300 !important;
     color: var(--sub-color);
@@ -62,7 +62,7 @@ p.my_font_p{
     h1.my_font_display{
         font-size: 5vw;
     }
-    h2.my_font_display2{
+    h2.my_font_h1{
         font-size: 3vw;
     }
     p.my_font_p{
@@ -75,11 +75,15 @@ p.my_font_p{
     --footer_height: 60vh;
     --intro_height: 200vh;
     --main-color: #A92C3D;
-    --sub-color: #707070;
+    --sub-color: #787978;
 }
 .test{
     background-color:rgba(0,0,0,.1);
     border: 1px solid rgba(0,0,0,.2);
+}
+.test_hl{
+    background-color:rgba(255, 0, 0, 0.5);
+    border: 1px solid rgba(255,0,0,.8);
 }
 .my_bg {
     background-size: cover;
@@ -133,6 +137,98 @@ p.my_font_p{
 }
 
 #top .intro_story_contd{
+}
+
+.rounded_image_square_medium{
+    height: 30vh;
+    border-radius: 3vw;
+    box-shadow: 0px 0px 5vh 0px rgba(0, 0, 0, 0.1)
+}
+.rounded_image_square_large{
+    height: 45vh;
+    border-radius: 4vw;
+    box-shadow: 0px 0px 5vh 0px rgba(0, 0, 0, 0.1)
+}
+@media (min-width: 768px){
+    .rounded_image_square_medium{
+        height: 50vh;
+        border-radius: 1.5vw;
+        box-shadow: 0px 0px 3vh 0px rgba(0, 0, 0, 0.1)
+    }
+    .rounded_image_square_large{
+        height: 75vh;
+        border-radius: 4vw;
+        box-shadow: 0px 0px 5vh 0px rgba(0, 0, 0, 0.1)
+    }
+}
+.linkey_image_greater{
+    height: 45vh;
+    width: 45vh
+}
+.linkey_image_greater .images_container{
+    height: 45vh;
+    width: 45vh;
+}
+.linkey_image_greater .rounded_image_square_medium:nth-child(2){
+    display: block;
+    position: relative;
+    top: -15vh;
+    left:15vh;
+}
+@media (min-width: 768px){
+    .linkey_image_greater{
+        height: 75vh;
+        width: 75vh
+    }
+    .linkey_image_greater .images_container{
+        height: 75vh;
+        width: 75vh;
+    }
+    .linkey_image_greater .rounded_image_square_medium:nth-child(2){
+        display: block;
+        position: relative;
+        top: -25vh;
+        left:25vh;
+    }
+}
+.rounded_rect{
+    border-radius: 3vw;
+}
+@media (min-width: 768px){
+    .rounded_rect{
+        border-radius: 1.5vw;
+    }
+}
+.desc_rounded_rect{
+    border-radius: 3vw;
+    width: 80vw;
+    background-color: white;
+    box-shadow: 0px 0px 5vh 0px rgba(0, 0, 0, 0.1);
+}
+.desc_rounded_rect .desc_heading{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    color:var(--sub-color);
+    font-size: 4vw;
+}
+.desc_rounded_rect .desc_link{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    color:var(--main-color);
+    font-size: 4vw;
+}
+@media (min-width: 768px){
+    .desc_rounded_rect{
+        width: 30vw;
+        border-radius: 1.5vw;
+        box-shadow: 0px 0px 3vh 0px rgba(0, 0, 0, 0.1);
+    }
+    .desc_rounded_rect .desc_heading{
+        font-size: 1.8vw;
+    }
+    .desc_rounded_rect .desc_link{
+        font-size: 1.6vw;
+    }
 }
 
 /*  */
