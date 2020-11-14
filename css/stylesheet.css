@@ -49,23 +49,33 @@ Small devices (landscape phones, 576px and up) */
     line-height: 150%;
     font-size: 5vw;
 }
+.my_font_h2{
+    font-family: 'Noto Sans JP', sans-serif !important;
+    font-weight: 500 !important;
+    color: var(--sub-color);
+    letter-spacing: .15em;
+    line-height: 150%;
+    font-size: 5vw;
+}
 .my_font_p{
     font-family: 'Noto Sans JP', sans-serif !important;
     font-weight: 300 !important;
     color: var(--sub-color);
-    /* text-shadow: 1px 1px 1px rgba(0,0,0,.1); */
     letter-spacing: initial;
     line-height: 150%;
     font-size: 4vw;
 }
 @media (min-width: 768px) {
-    h1.my_font_display{
+    .my_font_display{
         font-size: 5vw;
     }
-    h2.my_font_h1{
+    .my_font_h1{
         font-size: 3vw;
     }
-    p.my_font_p{
+    .my_font_h2{
+        font-size: 2vw;
+    }
+    .my_font_p{
         font-size: 2vw;
     }
 }
@@ -99,16 +109,9 @@ Small devices (landscape phones, 576px and up) */
 }
 #top .my_bg.intro{
     background-image: url("../images/introduction_back.png");
-    /* height:2000px; */
-    /* height:var(--intro_height); */
 }
 #top .my_bg.product{
     background-image: url("../images/product_back.png");
-    /* height: var(--hero_height); */
-}
-#top .customers{
-    height: var(--hero_height);
-    background-color: thistle;
 }
 #top .partners{
     height: var(--hero_height);
@@ -191,17 +194,17 @@ Small devices (landscape phones, 576px and up) */
         left:25vh;
     }
 }
-.rounded_rect{
+.rounded_my_lg{
     border-radius: 3vw;
 }
 @media (min-width: 768px){
-    .rounded_rect{
+    .rounded_my_lg{
         border-radius: 1.5vw;
     }
 }
 .desc_rounded_rect{
     border-radius: 3vw;
-    width: 80vw;
+    /* width: 80vw; */
     background-color: white;
     box-shadow: 0px 0px 5vh 0px rgba(0, 0, 0, 0.1);
 }
@@ -219,7 +222,7 @@ Small devices (landscape phones, 576px and up) */
 }
 @media (min-width: 768px){
     .desc_rounded_rect{
-        width: 30vw;
+        /* width: 30vw; */
         border-radius: 1.5vw;
         box-shadow: 0px 0px 3vh 0px rgba(0, 0, 0, 0.1);
     }
@@ -230,5 +233,8 @@ Small devices (landscape phones, 576px and up) */
         font-size: 1.6vw;
     }
 }
-
+.customer_logo{
+    height:25vw;
+    width: 25vw;
+}
 /*  */
