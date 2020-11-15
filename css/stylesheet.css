@@ -13,7 +13,7 @@ Small devices (landscape phones, 576px and up) */
 /* Extra large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {}
 
-
+/*  */
 .height100{
     height: 100px;
 }
@@ -47,7 +47,7 @@ Small devices (landscape phones, 576px and up) */
     text-shadow: 1px 1px 1px rgba(0,0,0,.1);
     letter-spacing: .15em;
     line-height: 150%;
-    font-size: 5vw;
+    font-size: 6vw;
 }
 .my_font_h2{
     font-family: 'Noto Sans JP', sans-serif !important;
@@ -57,6 +57,9 @@ Small devices (landscape phones, 576px and up) */
     line-height: 150%;
     font-size: 5vw;
 }
+.hero .my_font_h2{
+    color:white;
+}
 .my_font_h3{
     font-family: 'Noto Sans JP', sans-serif !important;
     font-weight: 400 !important;
@@ -64,6 +67,14 @@ Small devices (landscape phones, 576px and up) */
     letter-spacing: .15em;
     line-height: 150%;
     font-size: 4.5vw;
+}
+.my_font_h4{
+    font-family: 'Noto Sans JP', sans-serif !important;
+    font-weight: 400 !important;
+    color: var(--sub-color);
+    letter-spacing: .1em;
+    line-height: 150%;
+    font-size: 2vw;
 }
 
 .my_font_p{
@@ -76,7 +87,7 @@ Small devices (landscape phones, 576px and up) */
 }
 .my_font_p_small{
     font-family: 'Noto Sans JP', sans-serif !important;
-    font-weight: 400 !important;
+    font-weight: 500 !important;
     color: var(--sub-color);
     letter-spacing: initial;
     line-height: 150%;
@@ -120,6 +131,8 @@ Small devices (landscape phones, 576px and up) */
     --intro_height: 200vh;
     --main-color: #A92C3D;
     --sub-color: #787978;
+    --gradient-black:rgba(2,0,36,.25);
+    --gradient-red:rgba(169,44,61,.25);
 }
 .test{
     background-color:rgba(0,0,0,.1);
@@ -147,7 +160,7 @@ Small devices (landscape phones, 576px and up) */
 #top .my_bg.product{
     background-image: url("../images/product_back.png");
 }
-#top .my_bg.footer{
+.my_bg.footer{
     background-image:url("../images/footer_back.png");
     /* height: var(--footer_height); */
 }
@@ -222,10 +235,12 @@ Small devices (landscape phones, 576px and up) */
 }
 .rounded_my_lg{
     border-radius: 3vw;
+    box-shadow: 0px 0px 5vh 0px rgba(0, 0, 0, 0.1);
 }
 @media (min-width: 768px){
     .rounded_my_lg{
         border-radius: 1.5vw;
+        box-shadow: 0px 0px 3vh 0px rgba(0, 0, 0, 0.1);
     }
 }
 .desc_rounded_rect{
@@ -237,7 +252,7 @@ Small devices (landscape phones, 576px and up) */
 .desc_rounded_rect .desc_heading{
     font-family: 'Noto Sans JP', sans-serif;
     font-weight: 500;
-    color:var(--sub-color);
+    color:var(--main-color);
     font-size: 4vw;
 }
 .desc_rounded_rect .desc_link{
@@ -245,6 +260,35 @@ Small devices (landscape phones, 576px and up) */
     font-weight: 400;
     color:var(--main-color);
     font-size: 4vw;
+}
+.desc_rounded_rect p{
+    font-family: 'Noto Sans JP', sans-serif !important;
+    font-weight: 300 !important;
+    color: var(--sub-color);
+    letter-spacing: initial;
+    line-height: 180%;
+    font-size: 3vw;
+}
+
+.desc_rounded_rect .desc_heading_sm{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 500;
+    color:var(--main-color);
+    font-size: 2.5vw;
+}
+/* .desc_rounded_rect .desc_link_sm{
+    font-family: 'Noto Sans JP', sans-serif;
+    font-weight: 400;
+    color:var(--main-color);
+    font-size: 4vw;
+} */
+.desc_rounded_rect .desc_p_sm{
+    font-family: 'Noto Sans JP', sans-serif !important;
+    font-weight: 300 !important;
+    color: var(--sub-color);
+    letter-spacing: initial;
+    line-height: 180%;
+    font-size: 1.2vw;
 }
 @media (min-width: 768px){
     .desc_rounded_rect{
@@ -257,6 +301,15 @@ Small devices (landscape phones, 576px and up) */
     }
     .desc_rounded_rect .desc_link{
         font-size: 1.6vw;
+    }
+    .desc_rounded_rect p{
+        font-size:1.5vw;
+    }
+    .desc_rounded_rect .desc_heading_sm{
+        font-size:1.5vw;
+    }
+    .desc_rounded_rect .desc_p_sm{
+        font-size: 1.2vw;
     }
 }
 .customer_logo{
@@ -295,4 +348,64 @@ Small devices (landscape phones, 576px and up) */
 	color: #A92C3D;
 	border-color: #A92C3D;
 }
+
+/* Linkey */
+#linkey .my_bg.hero{
+    background-image: linear-gradient(90deg, var(--gradient-black) 0%, var(--gradient-red) 100%),
+    url("../images/background/background_linkey_hero.jpg");
+}
+#linkey .my_bg.overview{
+    background-image: url("../images/linkey_pro_back.png");
+}
+
+#linkey_banner_image{
+    max-height:100vh;
+    width: auto;
+}
+#linkey .hero{
+    height:initial;
+}
+.my_img_md{
+    max-height: 50vh;
+}
+#linkey .my_bg.points{
+    background-image: url("../images/characteristic_back.png");
+}
+.my_img_lg{
+    max-width:80vw;
+    max-height: 80vh;
+}
+@media (min-width: 768px){
+    .my_img_lg{
+        max-width:40vw;
+        /* max-height: 40vh; */
+    }
+}
+#linkey .my_bg.remote_control{
+    background-image: url("../images/management_back.png");
+}
+#linkey .my_bg.scenes{
+    background-image: url("../images/background/usage_back.png");
+}
+.install_panel_comp{
+    background-image: linear-gradient(90deg, var(--gradient-black) 0%, var(--gradient-black) 100%),
+    url("../images/installation/適合診断.jpg");
+    background-position: center center;
+    background-size: cover;
+    max-width:80%;
+    min-height: 25vh;
+}
+.install_panel_howto{
+    background-image: linear-gradient(90deg, var(--gradient-black) 0%, var(--gradient-black) 100%),
+    url("../images/installation/取り付け方法.jpg");
+    background-position: center center;
+    background-size: cover;
+    max-width:80%;
+    min-height: 25vh;
+}
+.installation .my_font_h2{
+    color:white !important;
+}
+
+
 /*  */
