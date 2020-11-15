@@ -13,5 +13,6 @@ if ($('.smart-scroll').length > 0) { // check if element exists
 			}
 		}
 		last_scroll_top = scroll_top;
-    });
+	});
 }
+
