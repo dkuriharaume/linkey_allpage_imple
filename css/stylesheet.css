@@ -164,7 +164,7 @@ a:hover, a:focus, a:active{
     height:initial;
 }
 
-#top .my_bg.intro{
+.my_bg.intro{
     background-image: url("../images/background/introduction_back.png");
 }
 #top .my_bg.product{
