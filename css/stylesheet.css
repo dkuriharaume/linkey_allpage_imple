@@ -134,6 +134,11 @@ Small devices (landscape phones, 576px and up) */
     --gradient-black:rgba(2,0,36,.25);
     --gradient-red:rgba(169,44,61,.25);
 }
+a:hover, a:focus, a:active{
+    outline:none; 
+    text-decoration:none;
+    color:var(--main-color);
+}
 .test{
     background-color:rgba(0,0,0,.1);
     border: 1px solid rgba(0,0,0,.2);
