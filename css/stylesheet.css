@@ -160,18 +160,21 @@ Small devices (landscape phones, 576px and up) */
 }
 
 #top .my_bg.intro{
-    background-image: url("../images/introduction_back.png");
+    background-image: url("../images/background/introduction_back.png");
 }
 #top .my_bg.product{
-    background-image: url("../images/product_back.png");
+    background-image: url("../images/background/product_back.png");
 }
 .my_bg.footer{
-    background-image:url("../images/footer_back.png");
+    background-image:url("../images/background/footer_back.png");
     /* height: var(--footer_height); */
 }
 #top .intro_ume{
-    background-image: url("../images/ume_back.png");
+    background-image: url("../images/background/ume_background.svg");
     background-blend-mode: multiply;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
     height: 50vh;
 }
 #ume_logo{
@@ -183,8 +186,6 @@ Small devices (landscape phones, 576px and up) */
     }  
 }
 
-#top .intro_story_contd{
-}
 
 .rounded_image_square_medium{
     height: 30vh;
@@ -360,7 +361,7 @@ Small devices (landscape phones, 576px and up) */
     url("../images/background/background_linkey_hero.jpg");
 }
 #linkey .my_bg.overview{
-    background-image: url("../images/linkey_pro_back.png");
+    background-image: url("../images/background/linkey_pro_back.png");
 }
 
 #linkey_banner_image{
@@ -374,7 +375,7 @@ Small devices (landscape phones, 576px and up) */
     max-height: 50vh;
 }
 #linkey .my_bg.points{
-    background-image: url("../images/characteristic_back.png");
+    background-image: url("../images/background/characteristic_back.png");
 }
 .my_img_lg{
     max-width:80vw;
@@ -387,7 +388,7 @@ Small devices (landscape phones, 576px and up) */
     }
 }
 #linkey .my_bg.remote_control{
-    background-image: url("../images/management_back.png");
+    background-image: url("../images/background/management_back.png");
 }
 #linkey .my_bg.scenes{
     background-image: url("../images/background/usage_back.png");
