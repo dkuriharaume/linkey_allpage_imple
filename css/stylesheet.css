@@ -520,4 +520,7 @@ a:hover, a:focus, a:active{
 .trisection_circle{
     height:4vh;
 }
+.my_inset_shadow{
+    box-shadow: inset 0px 0px 20px rgba(0,0,0,.1);
+}
 /*  */
