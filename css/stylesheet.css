@@ -38,7 +38,7 @@ Small devices (landscape phones, 576px and up) */
     text-shadow: 2px 2px 2px rgba(0,0,0,.1);
     letter-spacing: .25em;
     line-height: 150%;
-    font-size: 10vw;
+    font-size: 7vw;
 }
 .my_font_h1{
     font-family: 'Noto Sans JP', sans-serif !important;
@@ -49,6 +49,9 @@ Small devices (landscape phones, 576px and up) */
     line-height: 150%;
     font-size: 6vw;
 }
+.my_font_h1.my_font_white{
+    color: white;
+}
 .my_font_h2{
     font-family: 'Noto Sans JP', sans-serif !important;
     font-weight: 500 !important;
@@ -56,6 +59,12 @@ Small devices (landscape phones, 576px and up) */
     letter-spacing: .15em;
     line-height: 150%;
     font-size: 5vw;
+}
+.my_font_h2.my_font_red{
+    color:var(--main-color);
+}
+.my_font_h2.my_font_white{
+    color:white;
 }
 .hero .my_font_h2{
     color:white;
@@ -68,6 +77,9 @@ Small devices (landscape phones, 576px and up) */
     line-height: 150%;
     font-size: 4.5vw;
 }
+.my_font_h3.my_font_red{
+    color:var(--main-color);
+}
 .my_font_h4{
     font-family: 'Noto Sans JP', sans-serif !important;
     font-weight: 500 !important;
@@ -79,11 +91,14 @@ Small devices (landscape phones, 576px and up) */
 
 .my_font_p{
     font-family: 'Noto Sans JP', sans-serif !important;
-    font-weight: 500 !important;
+    font-weight: 400 !important;
     color: var(--sub-color);
     letter-spacing: initial;
     line-height: 180%;
     font-size: 4vw;
+}
+.my_font_p.my_font_white{
+    color:white;
 }
 .my_font_p_small{
     font-family: 'Noto Sans JP', sans-serif !important;
@@ -103,7 +118,7 @@ Small devices (landscape phones, 576px and up) */
 }
 @media (min-width: 768px) {
     .my_font_display{
-        font-size: 5vw;
+        font-size: 3.5vw;
     }
     .my_font_h1{
         font-size: 3vw;
@@ -130,6 +145,7 @@ Small devices (landscape phones, 576px and up) */
     --footer_height: 60vh;
     --intro_height: 200vh;
     --main-color: #A92C3D;
+    --main-color-a0: #A92C3D00;
     --sub-color: #787978;
     --gradient-black:rgba(2,0,36,.25);
     --gradient-red:rgba(169,44,61,.25);
@@ -165,7 +181,7 @@ a:hover, a:focus, a:active{
 }
 
 .my_bg.intro{
-    background-image: url("../images/background/introduction_back.png");
+    /* background-image: url("../images/background/introduction_back.png"); */
 }
 #top .my_bg.product{
     background-image: url("../images/background/product_back.png");
@@ -466,5 +482,45 @@ a:hover, a:focus, a:active{
 }
 .my_table tbody tr{
     height:10vh;
+}
+.my_bg_banner_gradient_hor{
+    background: linear-gradient(90deg, black -20%, var(--main-color) 120%);
+    /* background-position: center center;
+    background-size: cover; */
+}
+.my_bg_banner_gradient_rad{
+    background: linear-gradient(315deg, black -20%, var(--main-color) 120%);
+    /* background-position: center center;
+    background-size: cover; */
+}
+.trisection{
+    min-height:75vw;
+}
+@media (min-width: 768px){
+    .trisection{
+        min-height:40vw;
+    }
+}
+.bg_red{
+    background-color: var(--main-color);
+}
+.my_bg_heading_gradient{
+    background: linear-gradient(90deg, var(--main-color) 0%, var(--main-color-a0) 100%);
+}
+@media (min-width: 768px){
+    .my_bg_heading_gradient{
+        background: linear-gradient(90deg, var(--main-color) 0%, var(--main-color-a0) 70%);
+    }
+}
+.my_bg_heading_gradient_rev{
+    background: linear-gradient(90deg, var(--main-color-a0) 0%, var(--main-color) 100%);
+}
+@media (min-width: 768px){
+    .my_bg_heading_gradient_rev{
+        background: linear-gradient(90deg, var(--main-color-a0) 30%, var(--main-color) 100%);
+    }
+}
+.trisection_circle{
+    height:4vh;
 }
 /*  */
