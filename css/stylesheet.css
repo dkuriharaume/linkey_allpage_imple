@@ -180,9 +180,6 @@ a:hover, a:focus, a:active{
     height:initial;
 }
 
-.my_bg.intro{
-    /* background-image: url("../images/background/introduction_back.png"); */
-}
 #top .my_bg.product{
     background-image: url("../images/background/product_back.png");
 }
