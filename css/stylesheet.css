@@ -499,7 +499,7 @@ a:hover, a:focus, a:active{
 }
 @media (min-width: 768px){
     .trisection{
-        min-height:40vw;
+        min-height:initial;
     }
 }
 .bg_red{
