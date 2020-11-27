@@ -477,6 +477,9 @@ a:hover, a:focus, a:active{
     .my_table tbody th{
         font-size:2vh;
     }
+    .my_table tbody td{
+        font-size:1vw;
+    }
 }
 .my_table tbody tr{
     height:10vh;

@@ -22,8 +22,8 @@
         <link rel="stylesheet" href="../css/smartScroll.css" type="text/css" />
         <link rel="stylesheet" href="../css/fixed_table.css" type="text/css" />
         <!-- Webfont -->
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap" rel="stylesheet"> -->
         <!-- Fontawesome -->
         <script src="https://kit.fontawesome.com/625630bfaf.js" crossorigin="anonymous"></script>
     </head>
@@ -95,8 +95,16 @@
                 <div class="container">
                     <div class="row py-5">
                         <div class="col-md-6 order-2 order-md-1"><!-- images -->
-                            <img src="../images/linkey/outbody_square.jpg" alt="linkey plus outbody square" class="rounded_my_lg my_img_md mx-auto d-block mb-3"/>
-                            <img src="../images/linkey/linkey_photo_touch.jpg" alt="linkey plus inbody square" class="rounded_my_lg my_img_md mx-auto d-block"/>
+                            <div class="row">
+                                <div class="col-6 col-md-12">
+                                    <img src="../images/linkey/outbody_square.jpg" alt="linkey plus outbody square" class="rounded_my_lg my_img_md img-fluid mb-md-5"/>
+                                </div>
+                                <div class="col-6 col-md-12">
+                                    <img src="../images/linkey/linkey_photo_touch.jpg" alt="linkey plus inbody square" class="rounded_my_lg my_img_md img-fluid"/>        
+                                </div>
+                            </div>
+                            
+                            
                         </div>
                         <div class="col-md-6 order-1 order-md-2"><!-- desc -->
                             <p class="my_font_p">電子錠単体として使えるスタンダードプラン</p>
@@ -112,7 +120,7 @@
             <section class="my_bg plans">
                 <div class="container my-5">
                     <div class="row">
-                        <div class="col-8 my-5 mx-auto">
+                        <div class="col my-5 mx-auto">
                             <h1 class="my_font_h1 text-center">L!NKEYの2つのプラン</h1>
                             <p class="my_font_p text-center">L!NKEYでは、電子錠単体のご購入でご利用いただける「スタンダードプラン」と、管理機能を使える「リモートプラン」の2つのプランを用意しています。</p>
                         </div>
@@ -123,20 +131,20 @@
                             <p class="my_font_p text-center">単体の電子錠としてご利用いただくプランです。本体に備わった機能が使えます。</p>
                             <img src="../images/linkey/linkey_photo_touch.jpg" alt="" class="my_img_md rounded_my_lg d-block mx-auto my-3"/>
                             <div class="">
-                                <div class="desc_rounded_rect p-3 m-3 m-md-3">
+                                <div class="desc_rounded_rect p-md-4 p-3 m-3 m-md-3">
                                     <h4 class="desc_heading">暗証番号・ICカードでの解錠</h4>
                                     <p class="">シリンダーを利用して物理キーでも解錠することが可能です。
                                     </p>
                                 </div>
-                                <div class="desc_rounded_rect p-3 m-3 m-md-3">
+                                <div class="desc_rounded_rect p-md-4 p-3 m-3 m-md-3">
                                     <h4 class="desc_heading">本体操作で各種設定変更</h4>
                                     <p class="">暗証番号の変更や、カードの登録・削除が可能です。音量の調整や自動ロックのON・OFFの切り替えも本体操作で行うことができます。</p>
                                 </div>
-                                <div class="desc_rounded_rect p-3 m-3 m-md-3">
+                                <div class="desc_rounded_rect p-md-4 p-3 m-3 m-md-3">
                                     <h4 class="desc_heading">その他の電子錠機能</h4>
                                     <p class="">勝手にカギが閉まる<strong>「自動ロック機能」</strong>や、管理者用の<strong>マスターキー機能</strong>、その他のセキュリティ機能もご利用いただけます。</p>
                                 </div>
-                                <div class="desc_rounded_rect p-3 m-3 m-md-3">
+                                <div class="desc_rounded_rect p-md-4 p-3 m-3 m-md-3">
                                     <h4 class="desc_heading">必要機器・環境</h4>
                                     <p class=""><strong>電子錠「L!NKEY」のご購入だけ</strong>でご利用可能です。月額料金は発生しません。</p>
                                 </div>
@@ -147,20 +155,20 @@
                             <p class="my_font_p text-center">スタンダードプランの機能に加え、遠隔管理機能を利用できます。</p>
                             <img src="../images/illustrations/finelife.svg" alt="" class="my_img_md rounded_my_lg d-block mx-auto my-3"/>
                             <div class="">
-                                <div class="desc_rounded_rect p-3 m-3 m-md-3">
+                                <div class="desc_rounded_rect p-3 p-md-4 m-3 m-md-3">
                                     <h4 class="desc_heading">カギの管理機能</h4>
                                     <p class="">操作履歴を確認できる<strong>「ログ管理機能」</strong>や、一定のスケジュールだけ有効な暗証番号を設定できる<strong>「暗証番号スケジュール機能」</strong>
                                     </p>
                                 </div>
-                                <div class="desc_rounded_rect p-3 m-3 m-md-3">
+                                <div class="desc_rounded_rect p-3 p-md-4 m-3 m-md-3">
                                     <h4 class="desc_heading">リモート機能</h4>
                                     <p class="">リアルタイムでL!NKEYを開け閉めできる<strong>「リアルタイム遠隔操作」</strong>や、暗証番号・ICカードの<strong>「リモート設定機能」</strong></p>
                                 </div>
-                                <div class="desc_rounded_rect p-3 m-3 m-md-3">
+                                <div class="desc_rounded_rect p-3 p-md-4 m-3 m-md-3">
                                     <h4 class="desc_heading">複数施設・ドアの一元管理</h4>
                                     <p class="">複数拠点・複数室のドアのL!NKEYを1つのアカウント上で管理することが可能です。</p>
                                 </div>
-                                <div class="desc_rounded_rect p-3 m-3 m-md-3">
+                                <div class="desc_rounded_rect p-3 p-md-4 m-3 m-md-3">
                                     <h4 class="desc_heading">必要機器・環境</h4>
                                     <p class="">電子錠「L!NKEY」のご購入に加え、<strong>中継機「L!NCUBE」のご購入</strong>と遠隔管理システム「F!nelife（ファインライフ）」の<strong>月額ご利用契約</strong>が必要となります。</p>
                                     <p class="">L!NKEYをご利用になる宅内の<strong>Wifi環境</strong>が必要です。また、中継機を設置するためのコンセントを、L!NKEY設置するドアの付近3m程以内にご用意いただく必要があります。</p>
@@ -173,7 +181,7 @@
             <section class="my_bg system_integration">
                 <div class="container my-5">
                     <div class="row">
-                        <div class="col-8 my-5 mx-auto">
+                        <div class="col my-5 mx-auto">
                             <h1 class="my_font_h1 text-center">外部システム連携</h1>
                             <p class="my_font_p text-center">他社の施設管理システム（PMSやサイトコントローラー、予約・決済システムなど）と連携を進めています。L!NKEYの<strong>「リモートプラン」</strong>をご利用いただき、外部システムと別途利用契約していただくことで、暗証番号の発行の完全自動化など最大限に業務効率を高めることが可能です。</p>
                             <p class="my_font_caption">L!NKEYのリモートプランのみ、外部システムとの連携が可能です。L!NKEYのスタンダードプラン、およびL!NKEY Plusでは外部システムと接続した運用には対応していません。</p>
@@ -214,17 +222,17 @@
             <section class="my_bg linkey_plus_plan">
                 <div class="container my-5">
                     <div class="row">
-                        <div class="col-8 my-5 mx-auto">
+                        <div class="col my-5 mx-auto">
                             <h1 class="my_font_h1 text-center">L!NKEY Plusのプラン</h1>
                             <p class="my_font_p text-center">L!NKEY Plusは<strong>「スタンダードプラン」のみ</strong>ご用意しております。遠隔管理機能がない一方、便利な専用アプリで管理することが可能です。</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="../images/linkey/L+app_touch.jpg" alt="" class="rounded_my_lg my_img_md d-block mx-auto" />
+                            <img src="../images/linkey/L+app_touch.jpg" alt="" class="rounded_my_lg img-fluid" />
                         </div>
                         <div class="col-md-8">
-                            <div class="desc_rounded_rect p-3">
+                            <div class="desc_rounded_rect p-3 p-md-4">
                                 <h3 class="desc_heading">中継機や月額料金なし</h3>
                                 <p class="">電子錠のご購入のみで、アプリでの管理機能もご利用いただけます。</p>
                                 <h3 class="desc_heading">便利な管理用モバイルアプリ</h3>
@@ -360,8 +368,8 @@
             <section class="my_bg before_you_go">
                 <div class="container my-5">
                     <div class="row">
-                        <div class="col-8 my-5 mx-auto">
-                            <p class="my_font_h3 text-center">ご質問、資料請求、見積もり、ご購入等については
+                        <div class="col my-5 mx-auto">
+                            <p class="my_font_p text-center">ご質問、資料請求、見積もり、ご購入等については
                                 どうぞお気軽にお問い合わせください。</p>
                                 <a class="btn btn-lg btn-primary btn-block" href="../inquiry/index.html" role="button">お問い合わせ</a>
                         </div>
@@ -369,7 +377,6 @@
                 </div>
             </section>
         </main>
-        
         <!-- Footer -->
         <footer class="footer my_bg">
             <div class="container">
