@@ -28,19 +28,108 @@ Small devices (landscape phones, 576px and up) */
 }
 /* fonts */
 .my_font_v2_display{
-    font-size: 1em;
+    font-size: 1.5em;
     font-family:"Hiragino Sans";
     font-weight:800;
     background:-webkit-linear-gradient(left, var(--pink),var(--main-color),var(--orange));
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    line-height: 140%;
 }
-@media (min-width: 576px) {
+.my_font_v2_heading1_white{
+    font-size: 1.4em;
+    font-family:"Hiragino Sans";
+    font-weight:700;
+    color: white;
+    line-height: 150%;
+}
+.my_font_v2_bodyp_white{
+    font-size: .8em;
+    font-family:"Hiragino Sans";
+    font-weight:400;
+    color: white;
+    line-height: 200%;
+}
+.my_font_v2_heading3_white{
+    font-size: 1em;
+    font-family:"Hiragino Sans";
+    font-weight:600;
+    color: white;
+}
+.my_font_v2_heading1_compact_white{
+    font-size: 1.4em;
+    font-family:"Hiragino Sans";
+    font-weight:700;
+    color: white;
+}
+@media (min-width: 768px){
     .my_font_v2_display{
         font-size: 2.5em;
     }
+    .my_font_v2_heading1_white{
+        font-size: 2.2em;
+    }
+    .my_font_v2_bodyp_white{
+        font-size: 1em;
+    }
+    .my_font_v2_heading3_white{
+        font-size: 2em;
+    }
+    .my_font_v2_heading1_compact_white{
+        font-size: 2.2em;
+    }
 }
+.my_font_v2_smallp_white{
+    font-size: .9em;
+    font-family:"Hiragino Sans";
+    font-weight:300;
+    color: white;
+}
+.my_button_v2{
+    background: linear-gradient(to right, var(--main-color),var(--orange));
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 100px;
+}
+.my_button_v2:hover{
+    box-shadow: 0px 0px 10px white;
+}
+.my_round_light_white{
+    border-radius: 20px;
+    border: 2px solid white;
+}
+@media (min-width: 768px){
+    .my_round_light_white{
+        border-radius: 30px;
+    }
+}
+#top .my_bg.hero{
+    height:50vh;
+    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../images/background/hero_bg_image.jpg");
+}
+@media (min-width: 576px) {
+    #top .my_bg.hero{
+        height:100vh;
+        background-image:
+        radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%),
+        url("../images/background/hero_bg_image.jpg");
+    }
+}
+.bg_2nd{
+    background:
+    radial-gradient(circle at left 50% bottom 0%, var(--pink_pale) 0%, var(--main-color_pale) 80%),
+    radial-gradient(circle at left 0% top 50%, var(--orange_pale) 0%, var(--main-color_pale) 80%),
+    radial-gradient(circle at right 0% top 0%, var(--purple_dark_pale) 0%, var(--main-color_pale) 80%);
+    background-color: var(--main-color);
+}
+#link_icon_2nd{
+    position: relative;
+    left: -50%;
+}
+
+
+
+/*  */
 .my_font{
     font-family: 'Noto Sans JP', sans-serif !important;
     font-weight: 900 !important;
@@ -161,11 +250,16 @@ Small devices (landscape phones, 576px and up) */
     --intro_height: 200vh;
     --main-color: #A92C3D;
     --main-color-a0: #A92C3D00;
+    --main-color_pale: #A92C3D77;
     --sub-color: #787978;
     --gradient-black:rgba(2,0,36,.25);
     --gradient-red:rgba(169,44,61,.25);
     --pink: #D66792;
+    --pink_pale: #D6679277;
     --orange: #E06147;
+    --orange_pale: #E0614777;
+    --purple_dark: #391047;
+    --purple_dark_pale: #39104777;
 }
 a:hover, a:focus, a:active{
     outline:none; 
@@ -189,17 +283,6 @@ a:hover, a:focus, a:active{
     height:var(--hero_height);
 }
 /* Top */
-#top .my_bg.hero{
-    height:50vh;
-    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 80%) ,url("../images/linkey/hero_bg_image.jpg");
-}
-@media (min-width: 576px) {
-    #top .my_bg.hero{
-        height:100vh;
-        background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 80%) ,url("../images/linkey/hero_bg_image.jpg");
-    }
-}
-
 
 #top .my_bg.product{
     background-image: url("../images/background/product_back.png");
