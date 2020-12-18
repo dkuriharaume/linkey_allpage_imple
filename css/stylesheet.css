@@ -104,7 +104,8 @@ Small devices (landscape phones, 576px and up) */
     }
 }
 #top .my_bg.hero{
-    height:50vh;
+    height:100vh;
+    background-position: 35% center;
     background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../images/background/hero_bg_image.jpg");
 }
 @media (min-width: 576px) {
