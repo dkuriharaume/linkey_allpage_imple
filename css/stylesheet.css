@@ -27,6 +27,20 @@ Small devices (landscape phones, 576px and up) */
     width: 200px;
 }
 /* fonts */
+.my_font_v2_display{
+    font-size: 1em;
+    font-family:"Hiragino Sans";
+    font-weight:800;
+    background:-webkit-linear-gradient(left, var(--pink),var(--main-color),var(--orange));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+@media (min-width: 576px) {
+    .my_font_v2_display{
+        font-size: 2.5em;
+    }
+}
 .my_font{
     font-family: 'Noto Sans JP', sans-serif !important;
     font-weight: 900 !important;
@@ -150,6 +164,8 @@ Small devices (landscape phones, 576px and up) */
     --sub-color: #787978;
     --gradient-black:rgba(2,0,36,.25);
     --gradient-red:rgba(169,44,61,.25);
+    --pink: #D66792;
+    --orange: #E06147;
 }
 a:hover, a:focus, a:active{
     outline:none; 
@@ -174,12 +190,16 @@ a:hover, a:focus, a:active{
 }
 /* Top */
 #top .my_bg.hero{
-    background-image: linear-gradient(90deg, var(--gradient-black) 0%, var(--gradient-red) 100%)
-    ,url("../images/background/banner_top.webp");
+    height:50vh;
+    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 80%) ,url("../images/linkey/hero_bg_image.jpg");
 }
-#top .hero{
-    height:initial;
+@media (min-width: 576px) {
+    #top .my_bg.hero{
+        height:100vh;
+        background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 80%) ,url("../images/linkey/hero_bg_image.jpg");
+    }
 }
+
 
 #top .my_bg.product{
     background-image: url("../images/background/product_back.png");
