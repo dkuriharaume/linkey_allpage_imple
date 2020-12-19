@@ -118,9 +118,10 @@ Small devices (landscape phones, 576px and up) */
 }
 .bg_2nd{
     background:
-    radial-gradient(circle at left 50% bottom 0%, var(--pink_pale) 0%, var(--main-color_pale) 80%),
-    radial-gradient(circle at left 0% top 50%, var(--orange_pale) 0%, var(--main-color_pale) 80%),
-    radial-gradient(circle at right 0% top 0%, var(--purple_dark_pale) 0%, var(--main-color_pale) 80%);
+    radial-gradient(circle at left 50% bottom 50%, #FFFFFF33 0%, #FFFFFF00 50%),
+    radial-gradient(circle at left 50% bottom 0%, var(--pink_pale) 0%, var(--pink_a0) 80%),
+    radial-gradient(circle at left 0% top 50%, var(--orange_pale) 0%, var(--orange_a0) 80%),
+    radial-gradient(circle at right 0% top 0%, var(--purple_dark_pale) 0%, var(--purple_dark_a0) 80%);
     background-color: var(--main-color);
 }
 #link_icon_2nd{
@@ -251,16 +252,19 @@ Small devices (landscape phones, 576px and up) */
     --intro_height: 200vh;
     --main-color: #A92C3D;
     --main-color-a0: #A92C3D00;
-    --main-color_pale: #A92C3D77;
+    --main-color_pale: #A92C3DAA;
     --sub-color: #787978;
     --gradient-black:rgba(2,0,36,.25);
     --gradient-red:rgba(169,44,61,.25);
     --pink: #D66792;
-    --pink_pale: #D6679277;
+    --pink_pale: #D66792AA;
+    --pink_a0: #D6679200;
     --orange: #E06147;
-    --orange_pale: #E0614777;
+    --orange_pale: #E0614788;
+    --orange_a0: #E0614700;
     --purple_dark: #391047;
-    --purple_dark_pale: #39104777;
+    --purple_dark_pale: #39104788;
+    --purple_dark_a0: #39104700;
 }
 a:hover, a:focus, a:active{
     outline:none; 
