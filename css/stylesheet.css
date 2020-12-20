@@ -37,6 +37,12 @@ Small devices (landscape phones, 576px and up) */
     -webkit-text-fill-color: transparent;
     line-height: 140%;
 }
+.my_font_v2_display_sub{
+    font-size: 1.5em;
+    font-family:"Hiragino Sans";
+    font-weight:700;
+    color: white;
+}
 .my_font_v2_heading1_white{
     font-size: 1.4em;
     font-family:"Hiragino Sans";
@@ -65,7 +71,10 @@ Small devices (landscape phones, 576px and up) */
 }
 @media (min-width: 768px){
     .my_font_v2_display{
-        font-size: 2.5em;
+        font-size: 3.2em;
+    }
+    .my_font_v2_display_sub{
+        font-size: 1.2em;
     }
     .my_font_v2_heading1_white{
         font-size: 2.2em;
@@ -98,9 +107,23 @@ Small devices (landscape phones, 576px and up) */
     border-radius: 20px;
     border: 2px solid white;
 }
+.my_round_light_primary{
+    border-radius: 20px;
+    border: 2px solid var(--main-color);
+}
+.my_round_primary{
+    border-radius: 20px;
+    background-color: var(--main-color);
+}
 @media (min-width: 768px){
     .my_round_light_white{
         border-radius: 30px;
+    }
+    .my_round_light_primary{
+        border-radius: 20px;
+    }
+    .my_round_primary{
+        border-radius: 100px;
     }
 }
 #top .my_bg.hero{
