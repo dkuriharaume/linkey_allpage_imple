@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="59.599" height="59.599" viewBox="0 0 59.599 59.599">
+  <g id="グループ_28" data-name="グループ 28" transform="translate(-2832.639 19051)" fill="#MyGradient">
+    <path id="パス_191" data-name="パス 191" d="M72.351,14.156A48.017,48.017,0,0,0,38.174,0V8.448A39.884,39.884,0,0,1,78.06,48.336l8.448,0A48.02,48.02,0,0,0,72.351,14.155" transform="translate(2805.73 -19051)" fill="#a92c3d"/>
+    <path id="パス_192" data-name="パス 192" d="M38.173,11.264v7.508A27.683,27.683,0,0,1,65.859,46.463l7.508,0A35.2,35.2,0,0,0,38.175,11.265" transform="translate(2805.73 -19049.123)" fill="#a92c3d"/>
+    <path id="パス_193" data-name="パス 193" d="M54.432,28.462a22.852,22.852,0,0,0-16.259-6.736V28.3A16.427,16.427,0,0,1,54.6,44.715h6.569a22.844,22.844,0,0,0-6.736-16.254" transform="translate(2805.73 -19047.383)" fill="#a92c3d"/>
+    <path id="パス_194" data-name="パス 194" d="M51.043,43.043A11.263,11.263,0,1,1,39.78,31.78,11.263,11.263,0,0,1,51.043,43.043" transform="translate(2804.122 -19045.707)" fill="#a92c3d"/>
+  </g>
+  <defs>
+        <linearGradient id="MyGradient">
+          <stop offset="5%" stop-color="#F60" />
+          <stop offset="95%" stop-color="#FF6" />
+        </linearGradient>
+      </defs>
+</svg>
