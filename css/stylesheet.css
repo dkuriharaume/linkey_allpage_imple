@@ -557,7 +557,9 @@ a:hover, a:focus, a:active{
 	background-color: #A92C3D;
 	color: white;
 	border-color: #A92C3D;
-	
+	font-size: 1.2em;
+    font-family:"Hiragino Sans";
+    font-weight:600;
 } 
 .btn-primary:hover{
 	background-color: white;
