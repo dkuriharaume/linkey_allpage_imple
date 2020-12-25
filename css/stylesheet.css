@@ -26,12 +26,26 @@ Small devices (landscape phones, 576px and up) */
 .width200{
     width: 200px;
 }
+.op-75{
+    opacity: 75%;
+}
+
 /* fonts */
 .my_font_v2_display{
     font-size: 1.5em;
     font-family:"Hiragino Sans";
     font-weight:800;
     background:-webkit-linear-gradient(left, var(--pink),var(--main-color),var(--orange));
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 140%;
+}
+.my_font_v2_h1_fl{
+    font-size: 1.35em;
+    font-family:"Hiragino Sans";
+    font-weight:800;
+    background:-webkit-linear-gradient(#391047 0%, var(--main-color) 100%);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -50,13 +64,26 @@ Small devices (landscape phones, 576px and up) */
     color: white;
     line-height: 150%;
 }
-.my_font_v2_bodyp_white{
-    font-size: .8em;
-    font-family:"Hiragino Sans";
-    font-weight:400;
-    color: white;
-    line-height: 200%;
-}
+/* Body Paragraph */
+    .my_font_v2_bodyp{
+        font-size: .8em;
+        font-family:"Hiragino Sans";
+        font-weight:400;
+        line-height: 200%;
+    }
+    .my_font_v2_bodyp.compact{
+        line-height:150%;
+    }
+    .my_font_v2_bodyp.white{
+        color:white;
+    }
+    .my_font_v2_bodyp.gray{
+        color: var(--sub-color);
+    }
+    .my_font_v2_bodyp.purple{
+        color: #4F0711;
+    }
+
 .my_font_v2_label_white{
     font-size: 1.3em;
     font-family:"Hiragino Sans";
@@ -82,44 +109,46 @@ Small devices (landscape phones, 576px and up) */
     font-weight:400;
     color: var(--main-color);
 }
-.my_font_v2_heading2_pink{
-    font-size: 2em;
-    font-family:"Hiragino Sans";
-    font-weight: 700;
-    color: var(--pink);
-}
-.my_font_v2_heading2_primary{
-    font-size: 1.8em;
-    font-family:"Hiragino Sans";
-    font-weight: 700;
-    color: var(--main-color);
-}
-.my_font_v2_heading2_pink_smaller{
-    font-size: 1.8em;
-    font-family:"Hiragino Sans";
-    font-weight: 700;
-    color: var(--pink);
-    letter-spacing: -.1em;
-}
-.my_font_v2_bodyp_gray{
-    font-size: 1em;
-    font-family:"Hiragino Sans";
-    font-weight:300;
-    color: var(--sub-color);
-    line-height: 150%;
-}
 
-@media (min-width: 768px){
+/* Heading 2 */
+    .my_font_v2_heading2{
+        font-size: 2em;
+        font-family:"Hiragino Sans";
+        font-weight: 700;
+    }
+    .my_font_v2_heading2.pink{
+        color: var(--pink);
+    }
+    .my_font_v2_heading2.white{
+        color: white;
+    }
+    .my_font_v2_heading2.smaller{
+        font-size: 1.8em;
+    }
+    .my_font_v2_heading2.compact{
+        letter-spacing: -.1em;
+    }
+    .my_font_v2_heading2.primary{
+        font-size: 1.8em;
+        color: var(--main-color);
+    }
+/*  */
+
+@media (min-width: 576px){
     .my_font_v2_display{
         font-size: 3.2em;
     }
+    
     .my_font_v2_display_sub{
         font-size: 1.2em;
     }
     .my_font_v2_heading1_white{
         font-size: 2.2em;
     }
-    .my_font_v2_bodyp_white{
+    .my_font_v2_h1_fl{
+        font-size: 2.2em;
+    }
+    .my_font_v2_bodyp{
         font-size: 1em;
     }
     .my_font_v2_heading3_white{
@@ -136,12 +165,17 @@ Small devices (landscape phones, 576px and up) */
     color: white;
 }
 .my_button_v2{
-    background: linear-gradient(to right, var(--main-color),var(--orange));
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     border-radius: 100px;
 }
 .my_button_v2:hover{
     box-shadow: 0px 0px 10px white;
+}
+.my_button_v2.second{
+    background: linear-gradient(to right, var(--main-color),var(--orange));
+}
+.my_button_v2.fl{
+    background: linear-gradient(#391047 0%, var(--main-color) 100%);
 }
 .my_round_light_white{
     border-radius: 20px;
@@ -155,7 +189,7 @@ Small devices (landscape phones, 576px and up) */
     border-radius: 20px;
     background-color: var(--main-color);
 }
-@media (min-width: 768px){
+@media (min-width: 576px){
     .my_round_light_white{
         border-radius: 30px;
     }
@@ -256,6 +290,56 @@ Small devices (landscape phones, 576px and up) */
 .linpo_image.left{
     border-radius: 30px 0px 0px 30px;
 }
+.bg_finelife{
+    background-color: #EEDFE9;
+    border-radius: 30px;
+}
+.card_fl{
+    border-radius: 30px;
+    position: relative;
+}
+.card_fl.dark_red{
+    background-color: #4F0711;
+}
+.card_fl.purple{
+    background-color: #711E42;
+}
+.card_fl.red{
+    background-color: #8C0013;
+}
+.card_fl.blue_purple{
+    background-color: #391047;
+}
+.image_fl_container{
+    position:absolute;
+    top: -7%;
+    left: 20%;
+    width: 60%;
+    height: auto;
+}
+.spacer_fl{
+    height: 120px;
+}
+
+@media (min-width: 370px) {
+    .spacer_fl{
+        height: 200px;
+    }
+}
+@media (min-width: 768px) {
+    .spacer_fl{
+        height: 250px;
+    }
+}
+@media (min-width: 992px) {
+    .spacer_fl{
+        height: 130px;
+    }
+}
+
+
+
+
 
 /*  */
 .my_font{
