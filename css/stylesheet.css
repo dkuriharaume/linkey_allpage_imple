@@ -203,11 +203,20 @@ Small devices (landscape phones, 576px and up) */
 #top .my_bg.hero{
     height:100vh;
     background-position: 35% center;
+}
+.webp #top .my_bg.hero{
+    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../images/background/hero_bg_image.webp");
+}
+.no-webp #top .my_bg.hero{
     background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../images/background/hero_bg_image.jpg");
 }
 @media (min-width: 576px) {
-    #top .my_bg.hero{
-        height:100vh;
+    .webp #top .my_bg.hero{
+        background-image:
+        radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%),
+        url("../images/background/hero_bg_image.webp");
+    }
+    .no-webp #top .my_bg.hero{
         background-image:
         radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%),
         url("../images/background/hero_bg_image.jpg");
@@ -336,7 +345,10 @@ Small devices (landscape phones, 576px and up) */
         height: 130px;
     }
 }
-
+.image_fit{
+    width:100px;
+    height:auto;
+}
 
 
 
