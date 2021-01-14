@@ -274,21 +274,21 @@ Small devices (landscape phones, 576px and up) */
     background-position: 35% center;
 }
 .webp #top .my_bg.hero{
-    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../images/background/hero_bg_image.webp");
+    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../../images/background/hero_bg_image.webp");
 }
 .no-webp #top .my_bg.hero{
-    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../images/background/hero_bg_image.jpg");
+    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../../images/background/hero_bg_image.jpg");
 }
 @media (min-width: 576px) {
     .webp #top .my_bg.hero{
         background-image:
         radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%),
-        url("../images/background/hero_bg_image.webp");
+        url("../../images/background/hero_bg_image.webp");
     }
     .no-webp #top .my_bg.hero{
         background-image:
         radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%),
-        url("../images/background/hero_bg_image.jpg");
+        url("../../images/background/hero_bg_image.jpg");
     }
 }
 .bg_2nd{
@@ -338,7 +338,7 @@ Small devices (landscape phones, 576px and up) */
     }
 }
 .bg_linkey_points{
-    background: url("../images/icon/icon_linkey.svg"),
+    background: url("../../images/icon/icon_linkey.svg"),
     linear-gradient(var(--pink) 0%, var(--main-color) 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -433,7 +433,7 @@ Small devices (landscape phones, 576px and up) */
     .webp .card_scene_heading.rental_space{
         background:
         linear-gradient(#A92C3DBB,#D66792AA),
-        url("../images/sceneimages/rental_space_image.webp");
+        url("../../images/sceneimages/rental_space_image.webp");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -441,7 +441,7 @@ Small devices (landscape phones, 576px and up) */
     .webp .card_scene_heading.chintai{
         background:
         linear-gradient(#A92C3DBB,#D66792AA),
-        url("../images/sceneimages/chintai_image.webp");
+        url("../../images/sceneimages/chintai_image.webp");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -449,7 +449,7 @@ Small devices (landscape phones, 576px and up) */
     .webp .card_scene_heading.minpaku{
         background:
         linear-gradient(#A92C3DBB,#D66792AA),
-        url("../images/sceneimages/minpaku_image.webp");
+        url("../../images/sceneimages/minpaku_image.webp");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -457,7 +457,7 @@ Small devices (landscape phones, 576px and up) */
     .webp .card_scene_heading.office{
         background:
         linear-gradient(#A92C3DBB,#D66792AA),
-        url("../images/sceneimages/office_image.webp");
+        url("../../images/sceneimages/office_image.webp");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -465,7 +465,7 @@ Small devices (landscape phones, 576px and up) */
     .webp .card_scene_heading.hotel{
         background:
         linear-gradient(#A92C3DBB,#D66792AA),
-        url("../images/sceneimages/hotel_image.webp");
+        url("../../images/sceneimages/hotel_image.webp");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -473,7 +473,7 @@ Small devices (landscape phones, 576px and up) */
     .webp .card_scene_heading.other{
         background:
         linear-gradient(#A92C3DBB,#D66792AA),
-        url("../images/sceneimages/linkey_on_open_door.webp");
+        url("../../images/sceneimages/linkey_on_open_door.webp");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -482,7 +482,7 @@ Small devices (landscape phones, 576px and up) */
     .no-webp .card_scene_heading.rental_space{
         background:
         linear-gradient(#A92C3DBB,#D66792AA),
-        url("../images/sceneimages/rental_space_image.jpg");
+        url("../../images/sceneimages/rental_space_image.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -490,7 +490,7 @@ Small devices (landscape phones, 576px and up) */
     .no-webp .card_scene_heading.chintai{
         background:
         linear-gradient(#A92C3DBB,#D66792AA),
-        url("../images/sceneimages/chintai_image.jpg");
+        url("../../images/sceneimages/chintai_image.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -498,7 +498,7 @@ Small devices (landscape phones, 576px and up) */
     .no-webp .card_scene_heading.minpaku{
         background:
         linear-gradient(#A92C3DBB,#D66792AA),
-        url("../images/sceneimages/minpaku_image.jpg");
+        url("../../images/sceneimages/minpaku_image.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -506,7 +506,7 @@ Small devices (landscape phones, 576px and up) */
     .no-webp .card_scene_heading.office{
         background:
         linear-gradient(#A92C3DBB,#D66792AA),
-        url("../images/sceneimages/office_image.jpg");
+        url("../../images/sceneimages/office_image.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -514,7 +514,7 @@ Small devices (landscape phones, 576px and up) */
     .no-webp .card_scene_heading.hotel{
         background:
         linear-gradient(#A92C3DBB,#D66792AA),
-        url("../images/sceneimages/hotel_image.jpg");
+        url("../../images/sceneimages/hotel_image.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -522,7 +522,7 @@ Small devices (landscape phones, 576px and up) */
     .no-webp .card_scene_heading.other{
         background:
         linear-gradient(#A92C3DBB,#D66792AA),
-        url("../images/sceneimages/linkey_on_open_door.jpg");
+        url("../../images/sceneimages/linkey_on_open_door.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
@@ -681,14 +681,14 @@ a:hover, a:focus, a:active{
 /* Top */
 
 #top .my_bg.product{
-    background-image: url("../images/background/product_back.png");
+    background-image: url("../../images/background/product_back.png");
 }
 .my_bg.footer{
-    background-image:url("../images/background/footer_back.png");
+    background-image:url("../../images/background/footer_back.png");
     /* height: var(--footer_height); */
 }
 #top .intro_ume{
-    background-image: url("../images/background/ume_background.svg");
+    background-image: url("../../images/background/ume_background.svg");
     background-blend-mode: multiply;
     background-size: cover;
     background-position: center center;
@@ -878,10 +878,10 @@ a:hover, a:focus, a:active{
 /* Linkey */
 #linkey .my_bg.hero{
     background-image: linear-gradient(90deg, var(--gradient-black) 0%, var(--gradient-red) 100%),
-    url("../images/background/background_linkey_hero.jpg");
+    url("../../images/background/background_linkey_hero.jpg");
 }
 #linkey .my_bg.overview{
-    background-image: url("../images/background/linkey_pro_back.png");
+    background-image: url("../../images/background/linkey_pro_back.png");
 }
 
 .linkey_banner_image{
@@ -901,7 +901,7 @@ a:hover, a:focus, a:active{
     max-height: 50vh;
 }
 #linkey .my_bg.points{
-    background-image: url("../images/background/characteristic_back.png");
+    background-image: url("../../images/background/characteristic_back.png");
 }
 .my_img_lg{
     max-width:80vw;
@@ -922,14 +922,14 @@ a:hover, a:focus, a:active{
     }
 }
 #linkey .my_bg.remote_control{
-    background-image: url("../images/background/management_back.png");
+    background-image: url("../../images/background/management_back.png");
 }
 #linkey .my_bg.scenes{
-    background-image: url("../images/background/usage_back.png");
+    background-image: url("../../images/background/usage_back.png");
 }
 .install_panel_comp{
     background-image: linear-gradient(90deg, var(--gradient-black) 0%, var(--gradient-black) 100%),
-    url("../images/installation/適合診断.jpg");
+    url("../../images/installation/適合診断.jpg");
     background-position: center center;
     background-size: cover;
     max-width:80%;
@@ -937,7 +937,7 @@ a:hover, a:focus, a:active{
 }
 .install_panel_howto{
     background-image: linear-gradient(90deg, var(--gradient-black) 0%, var(--gradient-black) 100%),
-    url("../images/installation/取り付け方法.jpg");
+    url("../../images/installation/取り付け方法.jpg");
     background-position: center center;
     background-size: cover;
     max-width:80%;
