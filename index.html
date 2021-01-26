@@ -22,9 +22,9 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
         integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <!-- custom css -->
-    <link rel="stylesheet" href="css/v1.1.0/stylesheet.css" type="text/css" />
+    <link rel="stylesheet" href="css/v1.1.1/stylesheet.css" type="text/css" />
     <link rel="stylesheet" href="css/smartScroll.css" type="text/css" />
-    <link rel="stylesheet" href="css/v1.1.0/custom_animation.css" type="text/css" />
+    <link rel="stylesheet" href="css/v1.1.1/custom_animation.css" type="text/css" />
     <!-- Modernizr -->
     <script src="js/modernizr-custom.js"></script>
     <!-- Fontawesome -->
@@ -70,19 +70,19 @@
             </div>
         </nav>
         <nav class="navbar navbar-expand navbar-light bg-light justify-content-end">
-            <div class="navbar-nav">
+            <div class="navbar-nav flex-column flex-md-row">
                 <a class="nav-item nav-link" id="scrbtn_scenes">利用シーン</a>
                 <a class="nav-item nav-link" id="scrbtn_points">ポイント</a>
                 <a class="nav-item nav-link" id="scrbtn_fl">遠隔管理機能</a>
                 <a class="nav-item nav-link" id="scrbtn_wu">特徴</a>
                 <a class="nav-item nav-link" id="scrbtn_plans">プラン</a>
+                <a class="nav-item nav-link" id="scrbtn_cases">導入事例</a>
             </div>
         </nav>
     </div>
     <!-- main -->
     <main>
-        <section class="my_bg hero" id="hero">
-            <!-- Hero -->
+        <section class="my_bg hero" id="hero"><!-- Hero -->
             <div class="container h-100">
                 <div class="row align-items-center justify-content-end h-100">
                     <div class="col-8 col-md-7">
@@ -897,48 +897,264 @@
                 </div>
             </div>
         </section>
-        <section><!-- scenes (obsolete) -->
-            <div class="container-fluid">
-                <div class="row my_bg_banner_gradient_rad">
-                    <div class="col-md-8 my-md-5 my-3 mx-auto">
-                        <h1 class="my_font_h1 my_font_white text-center">ご利用シーン</h1>
+        <section id="cases"><!-- Cases -->
+            <div class = "container my-5 bd_primary" style="border-radius: 30px; border-width: 3px; border-style: solid;">
+                <div class ="" >
+                    <div class = "row mt-3">
+                        <div class = "col">
+                            <h1 class = "my_font_v2_heading1 col_primary text-center">導入事例</h1>
+                            <p class = "my_font_v2_bodyp col_gray text-center">書ききれないほど、たくさんのドアでご利用いただいています。<br>
+                                そのうちのいくつかをご紹介します。</p>
+                        </div>
                     </div>
-                </div>
-            </div>
-            <div class="container pb-5 pt-3">
-                <div class="row">
-                    <div class="col">
-                        <div class="row justify-content-center pt-3">
-                            <div class="col-4 px-md-5">
-                                <img src="images/v1.0.1/scene_icons/red/scenes_rental_space.jpg" alt=""
-                                    class="rounded-circle img-fluid my-3 shadow-lg" />
-                                <h3 class="my_font_p text-center">レンタルスペース・<br>無人運営</h3>
+                    <div class = "row">
+                        <div class ="col-12 col-lg-6 p-3 p-lg-5"><!-- Otomeyuri -->
+                            <div class = "row">
+                                <div class = "col">
+                                    <picture>
+                                        <source srcset="./images/v1.1.1/cases/main/webp/otomeyuri_min.webp 1x" type="image/webp">
+                                        <img src="./images/v1.1.1/cases/main/orig/otomeyuri_min.png" alt ="otomeyuri image" class="img-fluid">
+                                    </picture>
+                                </div>
                             </div>
-                            <div class="col-4 px-md-5">
-                                <img src="images/v1.0.1/scene_icons/red/scenes_chintai.jpg" alt=""
-                                    class="rounded-circle img-fluid my-3 shadow-lg" />
-                                <h3 class="my_font_p text-center">賃貸管理・<br>無人内見</h3>
+                            <div class = "row mt-4">
+                                <div class = "col-auto">
+                                    <picture>
+                                        <source srcset="./images/v1.1.1/cases/logo/webp/otomeyuri_min.webp 1x" type="image/webp">
+                                        <img src= "./images/v1.1.1/cases/logo/orig/otomeyuri_min.png" alt="otomeyuri logo" class ="img-fluid" />
+                                    </picture>
+                                </div>
+                                <div class = "col-auto ml-auto">
+                                    <h2 class="my_font_v2_heading2 text-right col_gray">御とめ湯り</h2>
+                                    <h3 class="my_font_v2_heading3 text-right col_gray">HEART計画株式会社様</h3>
+                                </div>
                             </div>
-                            <div class="col-4 px-md-5">
-                                <img src="images/v1.0.1/scene_icons/red/scenes_minpaku.jpg" alt=""
-                                    class="rounded-circle img-fluid my-3 shadow-lg" />
-                                <h3 class="my_font_p text-center">民泊・簡易宿所</h3>
+                            <div class ="row my-2">
+                                <div class = "col-atuo">
+                                    <p class="my_font_v2_label smaller col_white text-center bgcol_primary ml-3 px-4" style="border-radius: 100px;">L!NKEY</p>
+                                </div>
+                                <div class = "col-atuo">
+                                    <p class="my_font_v2_label smaller col_white bgcol_pink text-center ml-3 px-4" style="border-radius: 100px;">暗証番号</p>
+                                </div>
                             </div>
-                            <div class="col-4 px-md-5">
-                                <img src="images/v1.0.1/scene_icons/red/scenes_hotel.jpg" alt=""
-                                    class="rounded-circle img-fluid my-3 shadow-lg" />
-                                <h3 class="my_font_p text-center">ホテル・旅館</h3>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my_font_v2_bodyp col_gray">
+                                        日帰り温泉併設の宿泊施設で運用。温泉スタッフで省力運用をしています。暗証番号運用でカギ管理業務を削減。チェックアウトフリーでコロナ対策に。最安料金とコロナ禍で稼働率をキープ。
+                                    </p>
+                                </div>
                             </div>
-                            <div class="col-4 px-md-5">
-                                <img src="images/v1.0.1/scene_icons/red/scenes_office.jpg" alt=""
-                                    class="rounded-circle img-fluid my-3 shadow-lg" />
-                                <h3 class="my_font_p text-center">ホテル・入室管理</h3>
+                        </div>
+                        <div class ="col-12 col-lg-6 p-3 p-lg-5"><!-- Room INN Shanghai -->
+                            <div class = "row">
+                                <div class = "col">
+                                    <picture>
+                                        <source srcset="./images/v1.1.1/cases/main/webp/roomInnShanghai_min.webp 1x" type="image/webp">
+                                        <img src="./images/v1.1.1/cases/main/orig/roomInnShanghai_min.png" alt ="room Inn shanghai image" class="img-fluid">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class = "row mt-4">
+                                <div class = "col">
+                                    <picture>
+                                        <source srcset="./images/v1.1.1/cases/logo/webp/roomInnShanghai_min.webp 1x" type="image/webp">
+                                        <img src= "./images/v1.1.1/cases/logo/orig/roomInnShanghai_min.png" alt="roomInnShanghai logo" class ="img-fluid" />
+                                    </picture>
+                                </div>
+                                <div class = "col-auto ml-auto">
+                                    <h2 class="my_font_v2_heading2 smaller even text-right col_gray">ROOM INN Shanghai</h2>
+                                    <h3 class="my_font_v2_heading3 text-right col_gray">Design Base様</h3>
+                                </div>
+                            </div>
+                            <div class ="row my-2">
+                                <div class = "col-atuo">
+                                    <p class="my_font_v2_label smaller col_white bgcol_blue_dark text-center ml-3 px-4" style="border-radius: 100px;">L!NKEY&F!nelife</p>
+                                </div>
+                                <div class = "col-atuo" style="border-radius: 100px;">
+                                    <p class="my_font_v2_label smaller col_white bgcol_blue text-center ml-3 px-4" style="border-radius: 100px;">システム連携</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my_font_v2_bodyp col_gray">
+                                        24時間完全非対面のIT管理体制を構築。横浜エリアで初めてとなる、無人運営を許可された宿泊施設です。チェックインシステム + 防犯カメラ + L!NKEY遠隔で無人フロントを実現。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="col-12 col-lg-6 p-3 p-lg-5"><!-- Stay Sakura -->
+                            <div class = "row">
+                                <div class = "col">
+                                    <picture>
+                                        <source srcset="./images/v1.1.1/cases/main/webp/staySakura_min.webp 1x" type="image/webp">
+                                        <img src="./images/v1.1.1/cases/main/orig/staySakura_min.png" alt ="stay sakura image" class="img-fluid">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class = "row mt-4">
+                                <div class = "col-auto d-none">
+                                    <picture>
+                                        <source srcset="./images/v1.1.1/cases/logo/webp/roomInnShanghai_min.webp 1x" type="image/webp">
+                                        <img src= "./images/v1.1.1/cases/logo/orig/roomInnShanghai_min.png" alt="roomInnShanghai logo" class ="img-fluid" />
+                                    </picture>
+                                </div>
+                                <div class = "col-auto ml-auto">
+                                    <h2 class="my_font_v2_heading2 smaller even text-right col_gray">Stay SAKURA</h2>
+                                    <h3 class="my_font_v2_heading3 text-right col_gray">Stay Japan株式会社様</h3>
+                                </div>
+                            </div>
+                            <div class ="row my-2">
+                                <div class = "col-atuo">
+                                    <p class="my_font_v2_label smaller col_white bgcol_primary text-center ml-3 px-4" style="border-radius: 100px;">L!NKEY</p>
+                                </div>
+                                <div class = "col-atuo" style="border-radius: 100px;">
+                                    <p class="my_font_v2_label smaller col_white bgcol_orange text-center ml-3 px-4" style="border-radius: 100px;">ICカード</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my_font_v2_bodyp col_gray compact">
+                                        スマートロックでゲストに安心感を与えるサービスを目指し、ICカード運用でカギ紛失時のセキュリティ不安を解決。あらかじめ登録しておいたICカードをフロントで手渡し。新築物件でも穴あけなく導入。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="col-12 col-lg-6 p-3 p-lg-5"><!-- nakano hotel -->
+                            <div class = "row">
+                                <div class = "col">
+                                    <picture>
+                                        <source srcset="./images/v1.1.1/cases/main/webp/crtn_min.webp 1x" type="image/webp">
+                                        <img src="./images/v1.1.1/cases/main/orig/crtn_min.png" alt ="hotel nakano image" class="img-fluid">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class = "row mt-4">
+                                <div class = "col-auto d-none">
+                                    <picture>
+                                        <source srcset="./images/v1.1.1/cases/logo/webp/roomInnShanghai_min.webp 1x" type="image/webp">
+                                        <img src= "./images/v1.1.1/cases/logo/orig/roomInnShanghai_min.png" alt="roomInnShanghai logo" class ="img-fluid" />
+                                    </picture>
+                                </div>
+                                <div class = "col-auto ml-auto">
+                                    <h2 class="my_font_v2_heading2 smaller even text-right col_gray">東京都中野区ホテル</h2>
+                                    <h3 class="my_font_v2_heading3 text-right col_gray"> &nbsp;</h3>
+                                </div>
+                            </div>
+                            <div class ="row my-2">
+                                <div class = "col-atuo">
+                                    <p class="my_font_v2_label smaller col_white bgcol_primary text-center ml-3 px-4" style="border-radius: 100px;">L!NKEY</p>
+                                </div>
+                                <div class = "col-atuo" style="border-radius: 100px;">
+                                    <p class="my_font_v2_label smaller col_white bgcol_pink text-center ml-3 px-4" style="border-radius: 100px;">暗証番号</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my_font_v2_bodyp col_gray compact">
+                                        高品質な宿泊体験を低コストで提供し、コロナ禍でも顧客満足と稼働率を維持。オフィスが近いこともあり、暗証番号の変更など全ての設定・変更をL!NKEYの本体操作で行う単体プランでご利用。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="col-12 col-lg-6 p-3 p-lg-5"><!-- araha -->
+                            <div class = "row">
+                                <div class = "col">
+                                    <picture>
+                                        <source srcset="./images/v1.1.1/cases/main/webp/araha_min.webp 1x" type="image/webp">
+                                        <img src="./images/v1.1.1/cases/main/orig/araha_min.png" alt ="araha image" class="img-fluid">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class = "row mt-4">
+                                <div class = "col-auto d-none">
+                                    <picture>
+                                        <source srcset="./images/v1.1.1/cases/logo/webp/roomInnShanghai_min.webp 1x" type="image/webp">
+                                        <img src= "./images/v1.1.1/cases/logo/orig/roomInnShanghai_min.png" alt="roomInnShanghai logo" class ="img-fluid" />
+                                    </picture>
+                                </div>
+                                <div class = "col-auto ml-auto">
+                                    <h2 class="my_font_v2_heading2 smaller even text-right col_gray">かりゆしコンドミニアムリゾート
+                                        <br>北谷ＡＲＡＨＡ ＳＵＮＳＥＴ　様</h2>
+                                    <h3 class="my_font_v2_heading3 text-right col_gray d-none"> &nbsp;</h3>
+                                </div>
+                            </div>
+                            <div class ="row my-2">
+                                <div class = "col-atuo">
+                                    <p class="my_font_v2_label smaller col_white bgcol_blue_dark text-center ml-3 px-4" style="border-radius: 100px;">L!NKEY&F!nelife</p>
+                                </div>
+                                <div class = "col-atuo" style="border-radius: 100px;">
+                                    <p class="my_font_v2_label smaller col_white bgcol_pink text-center ml-3 px-4" style="border-radius: 100px;">暗証番号</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my_font_v2_bodyp col_gray compact">
+                                        2018年2月沖縄にオープンし全12室の無人民泊施設を運営。遠隔管理するため「L!NKEY」活用したシステムを導入。専用の管理画面で全部屋のカギを一元管理。現地に赴かない効率的な民泊運営を実施。
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class ="col-12 col-lg-6 p-3 p-lg-5"><!-- Labo -->
+                            <div class = "row">
+                                <div class = "col">
+                                    <picture>
+                                        <source srcset="./images/v1.1.1/cases/main/webp/labo_min.webp 1x" type="image/webp">
+                                        <img src="./images/v1.1.1/cases/main/orig/labo_min.png" alt ="labo image" class="img-fluid">
+                                    </picture>
+                                </div>
+                            </div>
+                            <div class = "row mt-4">
+                                <div class = "col-auto d-none">
+                                    <picture>
+                                        <source srcset="./images/v1.1.1/cases/logo/webp/roomInnShanghai_min.webp 1x" type="image/webp">
+                                        <img src= "./images/v1.1.1/cases/logo/orig/roomInnShanghai_min.png" alt="roomInnShanghai logo" class ="img-fluid" />
+                                    </picture>
+                                </div>
+                                <div class = "col-auto ml-auto">
+                                    <h2 class="my_font_v2_heading2 smaller even text-right col_gray">東京理科大学　理学部第二部物理学科<br>梅村研究室　様</h2>
+                                    <h3 class="my_font_v2_heading3 text-right col_gray d-none"> &nbsp;</h3>
+                                </div>
+                            </div>
+                            <div class ="row my-2">
+                                <div class = "col-atuo">
+                                    <p class="my_font_v2_label smaller col_white bgcol_primary text-center ml-3 px-4" style="border-radius: 100px;">L!NKEY</p>
+                                </div>
+                                <div class = "col-atuo" style="border-radius: 100px;">
+                                    <p class="my_font_v2_label smaller col_white bgcol_pink text-center ml-3 px-4" style="border-radius: 100px;">暗証番号</p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <p class="my_font_v2_bodyp col_gray compact">
+                                        廊下を隔てて向かいあう研究室２室へ「L!NKEY」を導入。２室を頻繁に行き来する学生がスムーズな入退室を実現。某警備会社の1/5程度で導入できると知り、L!NKEYの決め手に。大学側の条件として、シリンダーを残すこととマスターキーを大学側が管理する点もクリア。
+                                    </p>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                
             </div>
         </section>
+        <section><!-- Before you go -->
+            <div class = "container-fluid bg_2nd py-5">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="my_font_v2_heading3 col_white text-center">どんな些細なことでも、どうぞお気軽にお問い合わせください。</h3>
+                    </div>
+                </div>
+                <div class="row my-4">
+                    <div class="col-auto mx-auto">
+                        <a href="inquiry/index.html">
+                            <div class="my_button_v2 second">
+                                <p class="text-center py-2 px-5 my_font_v2_heading2 col_white buttontext">いますぐ問い合わせる
+                                </p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section> 
     </main>
     <!-- Footer -->
     <footer class="footer my_bg">
@@ -989,23 +1205,17 @@
 
     <!-- JQuery -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <!-- Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
-    <script src="js/v1.1.0/scroller.js"></script>
-    <!-- Waypoint -->
-    <!-- <script src="http://imakewebthings.github.com/jquery-waypoints/waypoints.min.js" type="text/javascript"></script> -->
-    <!-- <script src="js/v1.1.0/noframework.waypoints.js"></script>
-    <script src="js/v1.1.0/jquery.waypoints.js"></script>
-    <script src="js/v1.1.0/mywaypoint.js"></script>
-    <script src="js/v1.1.0/waypoints.debug.js"></script> -->
-    <!-- <script src="js/v1.1.0/jquery.inview.js"></script>
-    <script src="js/v1.1.0/myinview.js"></script> -->
     <!-- Start of HubSpot Embed Code -->
     <script type="text/javascript" id="hs-script-loader" async defer src="//js.hs-scripts.com/7080066.js"></script>
     <!-- End of HubSpot Embed Code -->
-    <script src="js/v1.1.0/smartScroll.js"></script>
-    <script src="js/v1.1.0/inview.js"></script>
+    <!-- Custom -->
+    <script src="js/v1.1.1/smartScroll.js"></script>
+    <script src="js/v1.1.1/inview.js"></script>
+    <script src="js/v1.1.1/scroller.js"></script>
 </body>
 
 </html>
