@@ -1,0 +1,8 @@
+$primary: #A92C3D;
+$link-decoration: none;
+
+@import "../bootstrap-5.0.0-beta1\ 2/scss/bootstrap";
+
+.custom_element{
+    color: tint-color($primary, 80%);
+}
