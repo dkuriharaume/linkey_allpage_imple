@@ -57,50 +57,50 @@ $small-font-size: .7em;
 
 // scss-docs-start import-stack
 // Configuration
-@import "../bootstrap-5.0.0-beta1\ 2/scss/functions";
-@import "../bootstrap-5.0.0-beta1\ 2/scss/variables";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/functions";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/variables";
 $display-font-sizes: map-merge($display-font-sizes, $custom-diplay-font-sizes);
 $colors: map-merge($colors, $custom-colors);
 $theme-colors: map-merge($theme-colors, $custom-theme-colors);
-@import "../bootstrap-5.0.0-beta1\ 2/scss/mixins";
-@import "../bootstrap-5.0.0-beta1\ 2/scss/utilities";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/mixins";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/utilities";
 
 // Layout & components
-@import "../bootstrap-5.0.0-beta1\ 2/scss/root";
-@import "../bootstrap-5.0.0-beta1\ 2/scss/reboot";
-@import "../bootstrap-5.0.0-beta1\ 2/scss/type";
-@import "../bootstrap-5.0.0-beta1\ 2/scss/images";
-@import "../bootstrap-5.0.0-beta1\ 2/scss/containers";
-@import "../bootstrap-5.0.0-beta1\ 2/scss/grid";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/tables";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/forms";
-@import "../bootstrap-5.0.0-beta1\ 2/scss/buttons";
-@import "../bootstrap-5.0.0-beta1\ 2/scss/transitions";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/dropdown";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/button-group";
-@import "../bootstrap-5.0.0-beta1\ 2/scss/nav";
-@import "../bootstrap-5.0.0-beta1\ 2/scss/navbar";
-@import "../bootstrap-5.0.0-beta1\ 2/scss/card";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/accordion";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/breadcrumb";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/pagination";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/badge";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/alert";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/progress";
-@import "../bootstrap-5.0.0-beta1\ 2/scss/list-group";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/close";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/toasts";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/modal";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/tooltip";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/popover";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/carousel";
-// @import "../bootstrap-5.0.0-beta1\ 2/scss/spinners";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/root";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/reboot";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/type";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/images";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/containers";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/grid";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/tables";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/forms";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/buttons";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/transitions";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/dropdown";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/button-group";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/nav";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/navbar";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/card";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/accordion";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/breadcrumb";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/pagination";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/badge";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/alert";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/progress";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/list-group";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/close";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/toasts";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/modal";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/tooltip";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/popover";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/carousel";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/spinners";
 
 // Helpers
-@import "../bootstrap-5.0.0-beta1\ 2/scss/helpers";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/helpers";
 
 // Utilities
-@import "../bootstrap-5.0.0-beta1\ 2/scss/utilities/api";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/utilities/api";
 // scss-docs-end import-stack
 
 $linkey-red-100: tint-color($linkey-red, 80%) !default;
@@ -136,21 +136,21 @@ $linkey-red-900: shade-color($linkey-red, 80%) !default;
     background-position: 35% center;
 }
 .webp #top .my_bg.hero{
-    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../images/background/hero_bg_image.webp");
+    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../../../images/background/hero_bg_image.webp");
 }
 .no-webp #top .my_bg.hero{
-    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../images/background/hero_bg_image.jpg");
+    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../../../images/background/hero_bg_image.jpg");
 }
 @media (min-width: 576px) {
     .webp #top .my_bg.hero{
         background-image:
         radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%),
-        url("../images/background/hero_bg_image.webp");
+        url("../../../images/background/hero_bg_image.webp");
     }
     .no-webp #top .my_bg.hero{
         background-image:
         radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%),
-        url("../images/background/hero_bg_image.jpg");
+        url("../../../images/background/hero_bg_image.jpg");
     }
 }
 $alpha_k: -0.7;
@@ -186,7 +186,7 @@ $ap0: color.adjust($pink, $alpha: -1);
     -webkit-text-fill-color: transparent;
 }
 .bg_linkey_points{
-    background: url("../images/icon/icon_linkey.svg"),
+    background: url("../../../images/icon/icon_linkey.svg"),
     linear-gradient($pink 0%, $primary 100%);
     background-size: cover;
     background-repeat: no-repeat;
@@ -240,4 +240,14 @@ $ap0: color.adjust($pink, $alpha: -1);
     .navbar-brand{
         max-width: 100vw;
     }
+}
+.navbar-nav {
+    a {
+      display: inline-block; // stops menu items from stacking
+    }
+  }
+.custom-scroll{
+    white-space: nowrap;
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch;
 }
