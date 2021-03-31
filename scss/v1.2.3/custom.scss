@@ -1,0 +1,253 @@
+@use "sass:color";
+// $primary: #A92C3D;
+$link-decoration: none;
+$font-family-sans-serif: /*"Helvetica Neue", Arial,*/ "Hiragino Sans", Meiryo, sans-serif;
+$navbar-padding-x: 1rem;
+$display-font-weight: 800;
+$custom-diplay-font-sizes:(
+    7: 2rem
+);
+$btn-font-size-lg: 2rem;
+$border-radius-lg: 2rem;
+$btn-font-weight: 600;
+$linkey-red: #A92C3D;
+$custom-colors: ("linkey_red": $linkey-red);
+$primary: $linkey-red;
+$pink:#D66792;
+$orange: #E06147;
+$dpurple: #391047;
+$secondary: #787978;
+$purple: #8d3070;
+$dred: #4F0711;
+$red: #C54742;
+$cardinal: #8C0013;
+$bpurple: #391047;
+$black: $primary;
+$blue: #166d71;
+$dblue: #003049;
+$custom-theme-colors:(
+    "pink": $pink,
+    "purple": $purple,
+    "dpurple": $dpurple,
+    "dred": $dred,
+    "red": $red,
+    "cardinal": $cardinal,
+    "bpurple": $bpurple,
+    "orange": $orange,
+    "blue": $blue,
+    "dblue": $dblue
+);
+
+$card-border-radius: $border-radius-lg;
+$card-space-multiplier: 2;
+$card-spacer-y: $card-space-multiplier * 1rem;
+$card-spacer-x: $card-space-multiplier * 1rem;
+$card-cap-bg: none;
+$card-border-color: #ffffff;
+
+$text-muted: rgba($secondary, .75);
+$list-group-bg: none;
+$small-font-size: .7em;
+/*!
+ * Bootstrap v5.0.0-beta1 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */
+
+// scss-docs-start import-stack
+// Configuration
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/functions";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/variables";
+$display-font-sizes: map-merge($display-font-sizes, $custom-diplay-font-sizes);
+$colors: map-merge($colors, $custom-colors);
+$theme-colors: map-merge($theme-colors, $custom-theme-colors);
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/mixins";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/utilities";
+
+// Layout & components
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/root";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/reboot";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/type";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/images";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/containers";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/grid";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/tables";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/forms";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/buttons";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/transitions";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/dropdown";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/button-group";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/nav";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/navbar";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/card";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/accordion";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/breadcrumb";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/pagination";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/badge";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/alert";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/progress";
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/list-group";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/close";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/toasts";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/modal";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/tooltip";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/popover";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/carousel";
+// @import "../../bootstrap-5.0.0-beta1\ 2/scss/spinners";
+
+// Helpers
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/helpers";
+
+// Utilities
+@import "../../bootstrap-5.0.0-beta1\ 2/scss/utilities/api";
+// scss-docs-end import-stack
+
+$linkey-red-100: tint-color($linkey-red, 80%) !default;
+$linkey-red-200: tint-color($linkey-red, 60%) !default;
+$linkey-red-300: tint-color($linkey-red, 40%) !default;
+$linkey-red-400: tint-color($linkey-red, 20%) !default;
+$linkey-red-500: $linkey-red !default;
+$linkey-red-600: shade-color($linkey-red, 20%) !default;
+$linkey-red-700: shade-color($linkey-red, 40%) !default;
+$linkey-red-800: shade-color($linkey-red, 60%) !default;
+$linkey-red-900: shade-color($linkey-red, 80%) !default;
+
+.custom_element{
+    color: tint-color($primary, 80%);
+}
+.bg_header_3rd{
+    background: $pink-100;
+}
+#top .display-4{
+    background:-webkit-linear-gradient(left, $pink,$primary,$orange);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 140%;
+}
+.my_bg {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+#top .my_bg.hero{
+    height:100vh;
+    background-position: 35% center;
+}
+.webp #top .my_bg.hero{
+    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../../images/background/hero_bg_image.webp");
+}
+.no-webp #top .my_bg.hero{
+    background-image:radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%) ,url("../../images/background/hero_bg_image.jpg");
+}
+@media (min-width: 576px) {
+    .webp #top .my_bg.hero{
+        background-image:
+        radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%),
+        url("../../images/background/hero_bg_image.webp");
+    }
+    .no-webp #top .my_bg.hero{
+        background-image:
+        radial-gradient(circle at left 110% top 50%, white 0%, #ffffff00 70%),
+        url("../../images/background/hero_bg_image.jpg");
+    }
+}
+$alpha_k: -0.7;
+$ap0: color.adjust($pink, $alpha: -1);
+
+.bg_2nd{
+    background:
+    radial-gradient(circle at left 50% bottom 50%, #FFFFFF33 0%, #FFFFFF00 50%),
+    radial-gradient(circle at left 50% bottom 0%, color.adjust($pink, $alpha: $alpha_k) 0%, $ap0 80%),
+    radial-gradient(circle at left 0% top 50%, color.adjust($orange, $alpha: $alpha_k) 0%, $ap0 80%),
+    radial-gradient(circle at right 0% top 0%, color.adjust($indigo, $alpha: $alpha_k) 0%, $ap0 80%);
+    background-color: $primary;
+}
+.bg_grad_primary_orange{
+    background:radial-gradient(circle at left 0% bottom 50%, $orange 0%, $primary 130%);
+}
+.grad_pink_main{
+    background:-webkit-linear-gradient(left, $pink 0%, $primary 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.grad_dpurple_main{
+    background:-webkit-linear-gradient($dpurple 0%, $primary 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.grad_orange_main{
+    background:-webkit-linear-gradient(left, $orange 0%, $primary 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.bg_linkey_points{
+    background: url("../../../images/icon/icon_linkey.svg"),
+    linear-gradient($pink 0%, $primary 100%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.card-img.right{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.card-header.left{
+    border-top-right-radius: 0;
+}
+.card-img.left{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.card-header.right{
+    border-top-left-radius: 0;
+}
+.bg_finelife{
+    background-color: $purple-100;
+    border-radius: 30px;
+}
+.op-75{
+    opacity: 75%;
+}
+.bg-orange-100{
+    background-color: $orange-100;
+}
+.bg-red-100{
+    background-color: $red-100;
+}
+.bg-primary-100{
+    background-color: $linkey-red-100;
+}
+.img-fit{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.btn{
+    box-shadow: 0px 10px 20px #00000030;
+}
+.test{
+    border: 1px solid #000000;
+}
+.navbar-brand{
+    max-width: 50vw;
+}
+@media (min-width: 768px){
+    .navbar-brand{
+        max-width: 100vw;
+    }
+}
+.navbar-nav {
+    a {
+      display: inline-block; // stops menu items from stacking
+    }
+  }
+.custom-scroll{
+    white-space: nowrap;
+    overflow-x: auto; 
+    -webkit-overflow-scrolling: touch;
+}
